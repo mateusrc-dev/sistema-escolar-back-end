@@ -19,10 +19,10 @@
 
 ### Para usar o projeto como desenvolvedor, siga estes passos:
 
-1. Ao clonar o repositório na sua máquina, você precisa instalar as bibliotecas, para isso execute no terminal o comando "npm install"
+1. Ao clonar o repositório na sua máquina, você precisa instalar as bibliotecas, para isso execute no terminal do vscode do repositório o comando "npm install"
 
-2. Você precisa ativar o servidor nos arquivos front-end e back-end com o comando "npm run dev"
+2. Você precisa ativar o servidor nos repositórios front-end e back-end usando o comando "npm run dev" no terminal dos respectivos repositórios no vscode
 
-3. No lado do back end, você pode deletar o banco de dados e após ativar o servidor novamente com o comando "npm run dev", o banco de dados será criado novamente, mas você também precisará usar o comando "npm run migrate" " para criar as migrações (outras tabelas criadas com este método) que utiliza knex.
+3. No repositório do back end, você pode deletar o banco de dados e após ativar o servidor novamente com o comando "npm run dev", o banco de dados será criado novamente, mas você também precisará usar o comando "npm run migrate" " para criar as migrações (outras tabelas criadas com este método) que utiliza knex.
 
 4. Na própria interface é possível criar um usuário que administra toda a aplicação, mas já existe uma conta criada para ser utilizada (email: mateus@email.com | senha: 123456)
